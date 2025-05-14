@@ -1,0 +1,16 @@
+#timetable td, th {
+    text-align: left;
+    padding: 5px;
+    height: 15;
+    width: 100;
+}
+#timetable thead, tfoot {
+    background: gray;
+    color: white;
+}
+#timetable tbody tr:nth-child(even) {
+    background: lightskyblue;
+}
+#timetable tbody tr:hover {
+    background: lightpink;
+}
